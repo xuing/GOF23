@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="146.0" y="104.0">Audi</node>
+    <node x="0.0" y="104.0">Byd</node>
+    <node x="115.9" y="208.0">Client01</node>
+    <node x="146.0" y="0.0">Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Audi" target="Car">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Client01" target="Byd">
+      <point x="-59.0" y="-27.0" />
+      <point x="145.4" y="183.0" />
+      <point x="63.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Byd" target="Car">
+      <point x="0.0" y="-27.0" />
+      <point x="63.0" y="79.0" />
+      <point x="167.0" y="79.0" />
+      <point x="-42.0" y="27.0" />
+    </edge>
+    <edge source="Client01" target="Car">
+      <point x="59.0" y="-27.0" />
+      <point x="263.4" y="183.0" />
+      <point x="282.5" y="183.0" />
+      <point x="282.5" y="79.0" />
+      <point x="251.0" y="79.0" />
+      <point x="42.0" y="27.0" />
+    </edge>
+    <edge source="Client01" target="Audi">
+      <point x="0.0" y="-27.0" />
+      <point x="204.4" y="183.0" />
+      <point x="209.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="10.333333333333258" y="-28.83333333333337" />
+  <SelectedNodes>
+    <node>Car</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

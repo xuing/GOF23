@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Client</OriginalElement>
+  <nodes>
+    <node x="260.4999999999999" y="0.0">Brand</node>
+    <node x="0.0" y="149.0">Lenovo</node>
+    <node x="466.5333333333333" y="149.0">Dell</node>
+    <node x="127.49999999999994" y="288.0">Laptop2</node>
+    <node x="413.5666666666666" y="288.0">Desktop2</node>
+    <node x="106.9" y="427.0">Client</node>
+    <node x="222.5333333333333" y="122.0">Computer2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Client" target="Computer2">
+      <point x="75.0" y="-32.5" />
+      <point x="294.4" y="402.0" />
+      <point x="339.99999999999994" y="402.0" />
+      <point x="339.99999999999994" y="268.0" />
+      <point x="334.5333333333333" y="268.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="Dell" target="Brand">
+      <point x="0.0" y="-31.0" />
+      <point x="546.0333333333333" y="92.0" />
+      <point x="379.7499999999999" y="92.0" />
+      <point x="39.75" y="31.0" />
+    </edge>
+    <edge source="Desktop2" target="Brand">
+      <point x="70.33333333333337" y="-44.5" />
+      <point x="589.4" y="268.0" />
+      <point x="636.0333333333333" y="268.0" />
+      <point x="636.0333333333333" y="82.0" />
+      <point x="406.2499999999999" y="82.0" />
+      <point x="66.25" y="31.0" />
+    </edge>
+    <edge source="Desktop2" target="Computer2">
+      <point x="0.0" y="-44.5" />
+      <point x="519.0666666666666" y="258.0" />
+      <point x="424.1333333333334" y="258.0" />
+      <point x="89.60000000000008" y="58.0" />
+    </edge>
+    <edge source="Lenovo" target="Brand">
+      <point x="0.0" y="-31.0" />
+      <point x="79.5" y="82.0" />
+      <point x="273.7499999999999" y="82.0" />
+      <point x="-66.25" y="31.0" />
+    </edge>
+    <edge source="Client" target="Laptop2">
+      <point x="0.0" y="-32.5" />
+      <point x="219.4" y="402.0" />
+      <point x="228.49999999999994" y="402.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="Laptop2" target="Computer2">
+      <point x="0.0" y="-44.5" />
+      <point x="228.49999999999994" y="268.0" />
+      <point x="244.93333333333334" y="268.0" />
+      <point x="-89.59999999999997" y="58.0" />
+    </edge>
+    <edge source="Laptop2" target="Brand">
+      <point x="-67.33333333333331" y="-44.5" />
+      <point x="161.16666666666663" y="268.0" />
+      <point x="187.94999999999996" y="268.0" />
+      <point x="187.94999999999996" y="92.0" />
+      <point x="300.2499999999999" y="92.0" />
+      <point x="-39.75" y="31.0" />
+    </edge>
+    <edge source="Computer2" target="Brand">
+      <point x="-56.00000000000006" y="-58.0" />
+      <point x="278.53333333333325" y="102.0" />
+      <point x="326.7499999999999" y="102.0" />
+      <point x="-13.25" y="31.0" />
+    </edge>
+    <edge source="Client" target="Lenovo">
+      <point x="-75.0" y="-32.5" />
+      <point x="144.4" y="402.0" />
+      <point x="79.5" y="402.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="361.5" y="246.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

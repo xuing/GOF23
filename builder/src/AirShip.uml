@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ShipClient</OriginalElement>
+  <nodes>
+    <node x="244.43390804597706" y="161.0">AirShipBuilder</node>
+    <node x="169.323275862069" y="383.0">XpfAirShipDirector</node>
+    <node x="96.8315886699508" y="161.0">AirShip</node>
+    <node x="190.1440886699508" y="0.0">EscapeTower</node>
+    <node x="318.6387520525452" y="272.0">XpfAirShipBuilder</node>
+    <node x="353.96018062397377" y="0.0">OrbitalModule</node>
+    <node x="38.93575533661749" y="0.0">Engine</node>
+    <node x="43.07974137931038" y="272.0">AirShipDirector</node>
+    <node x="108.3125" y="464.0">ShipClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="XpfAirShipBuilder" target="Engine">
+      <point x="-65.14285714285711" y="-15.5" />
+      <point x="329.4958949096881" y="232.0" />
+      <point x="63.394088669950804" y="232.0" />
+      <point x="63.394088669950804" y="141.0" />
+      <point x="61.18575533661749" y="141.0" />
+      <point x="-22.25" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipBuilder" target="OrbitalModule">
+      <point x="43.428571428571416" y="-15.5" />
+      <point x="438.0673234811166" y="252.0" />
+      <point x="439.9899425287357" y="252.0" />
+      <point x="439.9899425287357" y="141.0" />
+      <point x="432.71018062397377" y="141.0" />
+      <point x="11.25" y="15.5" />
+    </edge>
+    <edge source="AirShipBuilder" target="OrbitalModule">
+      <point x="43.99999999999997" y="-15.5" />
+      <point x="354.43390804597703" y="141.0" />
+      <point x="410.21018062397377" y="141.0" />
+      <point x="-11.25" y="15.5" />
+    </edge>
+    <edge source="AirShipBuilder" target="Engine">
+      <point x="-44.00000000000003" y="-15.5" />
+      <point x="266.43390804597703" y="81.0" />
+      <point x="120.51908866995085" y="81.0" />
+      <point x="37.08333333333336" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipBuilder" target="AirShipBuilder">
+      <point x="-21.714285714285694" y="-15.5" />
+      <point x="372.9244663382595" y="212.0" />
+      <point x="354.4339080459771" y="212.0" />
+      <point x="44.0" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipDirector" target="AirShipDirector">
+      <point x="-49.375" y="-15.5" />
+      <point x="198.948275862069" y="353.0" />
+      <point x="146.57974137931038" y="353.0" />
+      <point x="34.5" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipDirector" target="AirShipBuilder">
+      <point x="49.375" y="-15.5" />
+      <point x="297.698275862069" y="363.0" />
+      <point x="294.75" y="363.0" />
+      <point x="294.75" y="252.0" />
+      <point x="310.4339080459771" y="252.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="AirShipBuilder" target="EscapeTower">
+      <point x="-2.8421709430404007E-14" y="-15.5" />
+      <point x="310.43390804597703" y="71.0" />
+      <point x="264.2274220032841" y="71.0" />
+      <point x="10.583333333333314" y="15.5" />
+    </edge>
+    <edge source="ShipClient" target="XpfAirShipBuilder">
+      <point x="40.125" y="-15.5" />
+      <point x="201.9375" y="444.0" />
+      <point x="417.9899425287357" y="444.0" />
+      <point x="417.9899425287357" y="353.0" />
+      <point x="394.6387520525452" y="353.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="AirShip" target="EscapeTower">
+      <point x="-7.583333333333314" y="-15.5" />
+      <point x="134.7482553366175" y="91.0" />
+      <point x="200.72742200328412" y="91.0" />
+      <point x="-52.916666666666686" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipBuilder" target="EscapeTower">
+      <point x="21.714285714285722" y="-15.5" />
+      <point x="416.3530377668309" y="252.0" />
+      <point x="421.71018062397377" y="252.0" />
+      <point x="421.71018062397377" y="51.0" />
+      <point x="306.5607553366175" y="51.0" />
+      <point x="52.916666666666686" y="15.5" />
+    </edge>
+    <edge source="AirShipDirector" target="AirShip">
+      <point x="0.0" y="-15.5" />
+      <point x="112.07974137931038" y="252.0" />
+      <point x="130.9565886699508" y="252.0" />
+      <point x="-11.375" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipDirector" target="AirShip">
+      <point x="-29.625" y="-15.5" />
+      <point x="218.698275862069" y="343.0" />
+      <point x="191.57974137931038" y="343.0" />
+      <point x="191.57974137931038" y="252.0" />
+      <point x="153.7065886699508" y="252.0" />
+      <point x="11.375" y="15.5" />
+    </edge>
+    <edge source="ShipClient" target="AirShipDirector">
+      <point x="-13.375" y="-15.5" />
+      <point x="148.4375" y="434.0" />
+      <point x="77.57974137931038" y="434.0" />
+      <point x="-34.5" y="15.5" />
+    </edge>
+    <edge source="AirShip" target="OrbitalModule">
+      <point x="22.75" y="-15.5" />
+      <point x="165.0815886699508" y="121.0" />
+      <point x="365.21018062397377" y="121.0" />
+      <point x="-56.25" y="15.5" />
+    </edge>
+    <edge source="ShipClient" target="XpfAirShipDirector">
+      <point x="13.375" y="-15.5" />
+      <point x="175.1875" y="434.0" />
+      <point x="248.323275862069" y="434.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ShipClient" target="AirShip">
+      <point x="-40.125" y="-15.5" />
+      <point x="121.6875" y="444.0" />
+      <point x="32.57974137931038" y="444.0" />
+      <point x="32.57974137931038" y="242.0" />
+      <point x="108.2065886699508" y="242.0" />
+      <point x="-34.125" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipDirector" target="Engine">
+      <point x="-69.125" y="-15.5" />
+      <point x="179.198275862069" y="363.0" />
+      <point x="0.0" y="363.0" />
+      <point x="0.0" y="141.0" />
+      <point x="46.35242200328415" y="141.0" />
+      <point x="-37.08333333333334" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipDirector" target="EscapeTower">
+      <point x="9.875" y="-15.5" />
+      <point x="258.198275862069" y="323.0" />
+      <point x="219.01724137931038" y="323.0" />
+      <point x="219.01724137931038" y="111.0" />
+      <point x="243.0607553366175" y="111.0" />
+      <point x="-10.583333333333314" y="15.5" />
+    </edge>
+    <edge source="AirShip" target="Engine">
+      <point x="-22.75" y="-15.5" />
+      <point x="119.5815886699508" y="131.0" />
+      <point x="105.68575533661749" y="131.0" />
+      <point x="22.250000000000014" y="15.5" />
+    </edge>
+    <edge source="XpfAirShipDirector" target="OrbitalModule">
+      <point x="69.125" y="-15.5" />
+      <point x="317.448275862069" y="363.0" />
+      <point x="504.48994252873564" y="363.0" />
+      <point x="504.48994252873564" y="141.0" />
+      <point x="477.71018062397377" y="141.0" />
+      <point x="56.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="177.5" y="170.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="146.0" y="104.0">Audi</node>
+    <node x="0.0" y="104.0">Byd</node>
+    <node x="173.75" y="312.0">Client02</node>
+    <node x="104.46875" y="208.0">CarFactory</node>
+    <node x="187.6875" y="0.0">Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CarFactory" target="Car">
+      <point x="64.0" y="-27.0" />
+      <point x="264.46875" y="183.0" />
+      <point x="293.5" y="183.0" />
+      <point x="293.5" y="84.0" />
+      <point x="266.4375" y="84.0" />
+      <point x="15.75" y="27.0" />
+    </edge>
+    <edge source="Audi" target="Car">
+      <point x="0.0" y="-27.0" />
+      <point x="209.0" y="84.0" />
+      <point x="234.9375" y="84.0" />
+      <point x="-15.75" y="27.0" />
+    </edge>
+    <edge source="Client02" target="Car">
+      <point x="44.25" y="-27.0" />
+      <point x="306.5" y="287.0" />
+      <point x="314.1875" y="287.0" />
+      <point x="314.1875" y="74.0" />
+      <point x="297.9375" y="74.0" />
+      <point x="47.25" y="27.0" />
+    </edge>
+    <edge source="Byd" target="Car">
+      <point x="0.0" y="-27.0" />
+      <point x="63.0" y="84.0" />
+      <point x="203.4375" y="84.0" />
+      <point x="-47.25" y="27.0" />
+    </edge>
+    <edge source="CarFactory" target="Byd">
+      <point x="-64.0" y="-27.0" />
+      <point x="136.46875" y="183.0" />
+      <point x="63.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Client02" target="CarFactory">
+      <point x="-44.25" y="-27.0" />
+      <point x="218.0" y="287.0" />
+      <point x="200.46875" y="287.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="CarFactory" target="Audi">
+      <point x="0.0" y="-27.0" />
+      <point x="200.46875" y="183.0" />
+      <point x="209.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6" x="122.49019607843135" y="169.1699346405228" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
